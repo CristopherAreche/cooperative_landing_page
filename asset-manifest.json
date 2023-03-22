@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/cooperativa_landing_page/static/css/main.93cb1b45.css",
+    "main.js": "/cooperativa_landing_page/static/js/main.d7cbabaa.js",
+    "static/js/483.2b6dfc69.chunk.js": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js",
+    "static/js/787.bf82e99f.chunk.js": "/cooperativa_landing_page/static/js/787.bf82e99f.chunk.js",
+    "static/media/docs.jpg": "/cooperativa_landing_page/static/media/docs.81e50c9f2e7123f93e95.jpg",
+    "static/media/cover-img.jpg": "/cooperativa_landing_page/static/media/cover-img.8c85adf0ae2837b7fc33.jpg",
+    "static/media/register.jpg": "/cooperativa_landing_page/static/media/register.37271366be1baa0a2a69.jpg",
+    "static/media/aboutUs.jpg": "/cooperativa_landing_page/static/media/aboutUs.5de1fb566b90f6d29104.jpg",
+    "static/media/weAreCreative.jpg": "/cooperativa_landing_page/static/media/weAreCreative.dd0fc89900e2d5b75a1c.jpg",
+    "static/media/herofondo.jpg": "/cooperativa_landing_page/static/media/herofondo.ba6cff167da59da0578d.jpg",
+    "static/media/registroImg.jpg": "/cooperativa_landing_page/static/media/registroImg.959968846c8658a9f534.jpg",
+    "static/media/heroImg1.png": "/cooperativa_landing_page/static/media/heroImg1.32171afc9da74593dc8e.png",
+    "static/media/whyUs.svg": "/cooperativa_landing_page/static/media/whyUs.c31b736d2367c196cd8717496f6ca848.svg",
+    "static/media/whoWeAre.svg": "/cooperativa_landing_page/static/media/whoWeAre.52c447d35e3be67b3be026e96ba5de5d.svg",
+    "static/media/cooplogo.png": "/cooperativa_landing_page/static/media/cooplogo.1b9118f602d9b2d5179f.png",
+    "static/media/whatWeDo.svg": "/cooperativa_landing_page/static/media/whatWeDo.817ce04c51e85dceeb1abde0cd2fe662.svg",
+    "index.html": "/cooperativa_landing_page/index.html",
+    "main.93cb1b45.css.map": "/cooperativa_landing_page/static/css/main.93cb1b45.css.map",
+    "main.d7cbabaa.js.map": "/cooperativa_landing_page/static/js/main.d7cbabaa.js.map",
+    "483.2b6dfc69.chunk.js.map": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js.map",
+    "787.bf82e99f.chunk.js.map": "/cooperativa_landing_page/static/js/787.bf82e99f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93cb1b45.css",
+    "static/js/main.d7cbabaa.js"
+  ]
+}
