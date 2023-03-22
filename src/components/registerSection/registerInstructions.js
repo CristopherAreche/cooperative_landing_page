@@ -1,23 +1,24 @@
 import React from "react";
 import Styles from "./register.module.css"
+import Cards from "./cards/cards";
+import cardsItems from "./cards/cardsInfo";
 
 function InstructionSection(){
     return (
-        <section className="mt-5 container d-flex justify-content-between">
-        <article className={Styles.stepsCard}>
-            <div className={Styles.stepsIcon}> <h3 className={Styles.text}>1</h3></div>
-            <div className={Styles.stepsText}>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <section className={`container text-center ${Styles.InstructionSection}`}>
+            <h1 style={{color: "var(--tercerColor)"}}>¿Como inscribirse?</h1>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Ut enim ad minim veniam.</p>
+            <br/>
+            <div className="container d-flex justify-content-evenly align-items-center gap-3 flex-column flex-md-row">
+                <>
+                {cardsItems.map((item, index) => {
+                    return (
+                        <Cards titleCard={item.titleCard} textCard={item.textCard} iconCard={item.iconCard} key={index}/>
+                    )
+                })}
+                </>
             </div>
-        </article>
-        <article className={Styles.stepsCard}>
-            <div className={Styles.stepsIcon}> <h3 className={Styles.text}>2</h3></div>
-            <div className={Styles.stepsText}>
-            <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
-        </article>
         </section>
     )
 }

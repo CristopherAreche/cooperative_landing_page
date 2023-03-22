@@ -35,23 +35,6 @@ function RegisterSection() {
         submitting: false,
         info: { error: false, msg: msg },
       });
-      setInputs({
-        nombre: "",
-        apellido: "",
-        sexo: "",
-        cedula_pasaporte: "",
-        nacionalidad: "",
-        localidad: "",
-        ingresoMensual: "",
-        otrosIngresos: "",
-        telefono: "",
-        celular: "",
-        correo: "",
-        direccion: "",
-        conyugeNombre: "",
-        conyugeTelefono: "",
-        conyugeCelular: "",
-      });
     } else {
       setStatus({
         info: { error: true, msg: msg },
@@ -98,50 +81,50 @@ function RegisterSection() {
         <div className={`${Styles.registerImg}`}></div>
         <div className={`${Styles.register}`}>
           <form className="row g-5">
-            <div class="col-12 tab-content" id="pills-tabContent">
+            <div className="col-12 tab-content" id="pills-tabContent">
               <div
-                class="tab-pane fade show active"
+                className="tab-pane fade show active"
                 id="pills-home"
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
               >
                 <div className="row g-3 ">
-                  <div class="col-12">
+                  <div className="col-12">
                     <h3>Datos Personales</h3>
                   </div>
-                  <div class="col-md-6">
-                    <label for="nombre" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="nombre" className="form-label">
                       Nombres :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="nombre"
                       onChange={handleOnChange}
                       required
                       value={inputs.nombre}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="apellido" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="apellido" className="form-label">
                       Apellidos :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="apellido"
                       onChange={handleOnChange}
                       required
                       value={inputs.apellido}
                     />
                   </div>
-                  <div class="col-12">
+                  <div className="col-12">
                     <div>
-                      <label class="form-label">Sexo :</label>
+                      <label className="form-label">Sexo :</label>
                     </div>
-                    <div class="form-check form-check-inline">
+                    <div className="form-check form-check-inline">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="inlineRadioOptions"
                         id="sexo"
@@ -149,13 +132,16 @@ function RegisterSection() {
                         required
                         value={sexo[0]}
                       />
-                      <label class="form-check-label" for="inlineRadio1">
+                      <label
+                        className="form-check-label"
+                        htmlFor="inlineRadio1"
+                      >
                         Hombre
                       </label>
                     </div>
-                    <div class="form-check form-check-inline">
+                    <div className="form-check form-check-inline">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="inlineRadioOptions"
                         id="sexo"
@@ -163,13 +149,16 @@ function RegisterSection() {
                         required
                         value={sexo[1]}
                       />
-                      <label class="form-check-label" for="inlineRadio2">
+                      <label
+                        className="form-check-label"
+                        htmlFor="inlineRadio2"
+                      >
                         Mujer
                       </label>
                     </div>
-                    <div class="form-check form-check-inline">
+                    <div className="form-check form-check-inline">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="inlineRadioOptions"
                         id="sexo"
@@ -177,83 +166,86 @@ function RegisterSection() {
                         required
                         value={sexo[2]}
                       />
-                      <label class="form-check-label" for="inlineRadio2">
+                      <label
+                        className="form-check-label"
+                        htmlFor="inlineRadio2"
+                      >
                         Otro
                       </label>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <label for="cedula_pasaporte" class="form-label">
+                  <div className="col-12">
+                    <label htmlFor="cedula_pasaporte" className="form-label">
                       Cedula / Pasaporte :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="cedula_pasaporte"
                       onChange={handleOnChange}
                       required
                       value={inputs.cedula_pasaporte}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="nacionalidad" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="nacionalidad" className="form-label">
                       Nacionalidad :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="nacionalidad"
                       onChange={handleOnChange}
                       required
                       value={inputs.nacionalidad}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="localidad" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="localidad" className="form-label">
                       Localidad / Comunidad :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="localidad"
                       onChange={handleOnChange}
                       required
                       value={inputs.localidad}
                     />
                   </div>
-                  <div class="col-12">
-                    <label for="direccion" class="form-label">
+                  <div className="col-12">
+                    <label htmlFor="direccion" className="form-label">
                       Diereccion :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="direccion"
                       onChange={handleOnChange}
                       required
                       value={inputs.direccion}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="ingresoMensual" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="ingresoMensual" className="form-label">
                       Ingresos Mensuales:
                     </label>
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       id="ingresoMensual"
                       onChange={handleOnChange}
                       required
                       value={inputs.ingresoMensual}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="otrosIngresos" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="otrosIngresos" className="form-label">
                       Otros Ingresos :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="otrosIngresos"
                       onChange={handleOnChange}
                       required
@@ -263,48 +255,48 @@ function RegisterSection() {
                 </div>
               </div>
               <div
-                class="tab-pane fade"
+                className="tab-pane fade"
                 id="pills-profile"
                 role="tabpanel"
                 aria-labelledby="pills-profile-tab"
               >
                 <div className="row g-3">
-                  <div class="col-12">
+                  <div className="col-12">
                     <h3>Informacion de Contacto</h3>
                   </div>
-                  <div class="col-md-6">
-                    <label for="telefono" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="telefono" className="form-label">
                       Telefono :
                     </label>
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       id="telefono"
                       onChange={handleOnChange}
                       required
                       value={inputs.telefono}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="celular" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="celular" className="form-label">
                       Celular :
                     </label>
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       id="celular"
                       onChange={handleOnChange}
                       required
                       value={inputs.celular}
                     />
                   </div>
-                  <div class="col-12">
-                    <label for="correo" class="form-label">
+                  <div className="col-12">
+                    <label htmlFor="correo" className="form-label">
                       Email :
                     </label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="correo"
                       onChange={handleOnChange}
                       required
@@ -312,55 +304,54 @@ function RegisterSection() {
                     />
                   </div>
                   <div></div>
-                  <div class="col-12">
+                  <div className="col-12">
                     <h3>Datos Familiares</h3>
                   </div>
-                  <div class="col-12">
-                    <label for="conyugeNombre" class="form-label">
+                  <div className="col-12">
+                    <label htmlFor="conyugeNombre" className="form-label">
                       Nombre de Conyuge :
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="conyugeNombre"
                       onChange={handleOnChange}
                       required
                       value={inputs.conyugeNombre}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="conyugeTelefono" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="conyugeTelefono" className="form-label">
                       Telefono :
                     </label>
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       id="conyugeTelefono"
                       onChange={handleOnChange}
                       required
                       value={inputs.conyugeTelefono}
                     />
                   </div>
-                  <div class="col-md-6">
-                    <label for="conyugeCelular" class="form-label">
+                  <div className="col-md-6">
+                    <label htmlFor="conyugeCelular" className="form-label">
                       Celular :
                     </label>
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       id="conyugeCelular"
                       onChange={handleOnChange}
                       required
                       value={inputs.conyugeCelular}
                     />
                   </div>
-                  <div></div>
                   <div className={`col-12 ${Styles.btnRegistrar}`}>
                     <button
                       className="btn btn-success"
+                      onClick={handleOnSubmit}
                       type="button"
                       disabled={status.submitting}
-                      onClick={handleOnSubmit}
                     >
                       {!status.submitting
                         ? !status.submitted
@@ -388,10 +379,32 @@ function RegisterSection() {
                           ConyugeCelular={inputs.conyugeCelular}
                         />
                       }
-                      filename="formulario"
+                      filename="formularioDeInscripción.pdf"
                     >
-                      <button type="button" className="btn btn-dark">
-                        Descargar Formulario
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setInputs({
+                            nombre: "",
+                            apellido: "",
+                            sexo: "",
+                            cedula_pasaporte: "",
+                            nacionalidad: "",
+                            localidad: "",
+                            ingresoMensual: "",
+                            otrosIngresos: "",
+                            telefono: "",
+                            celular: "",
+                            correo: "",
+                            direccion: "",
+                            conyugeNombre: "",
+                            conyugeTelefono: "",
+                            conyugeCelular: "",
+                          });
+                        }}
+                        className="btn btn-dark"
+                      >
+                        Descargar PDF
                       </button>
                     </PDFDownloadLink>
                   </div>
@@ -400,7 +413,7 @@ function RegisterSection() {
             </div>
             <div className={`${Styles.grupoDeBotones} nav nav-pills mb-3`}>
               <button
-                class="nav-link active "
+                className="nav-link active "
                 id="pills-home-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-home"
@@ -412,7 +425,7 @@ function RegisterSection() {
                 Atras
               </button>
               <button
-                class="nav-link"
+                className="nav-link"
                 id="pills-profile-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-profile"
@@ -426,9 +439,13 @@ function RegisterSection() {
             </div>
           </form>
           {status.info.error && (
-            <div className="error">Error: {status.info.msg}</div>
+            <div className="error" style={{ color: "red" }}>
+              Error: {status.info.msg}
+            </div>
           )}
-          {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+          {!status.info.error && status.info.msg && (
+            <p>{status.info.msg}</p>
+          )}
         </div>
       </div>
     </section>

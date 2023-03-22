@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import { contactConfig } from "./contact/contactOption";
 import SocialtList from "./contact/socialList";
-import { RegisterFormTemplate } from "../registerFormTemplate/registerFormTemplate";
-import { PDFDownloadLink } from "@react-pdf/renderer";
 
 function Form() {
   const [status, setStatus] = useState({
@@ -16,7 +14,7 @@ function Form() {
     nombre: "",
     correo: "",
     cedula: "",
-    menssage: "",
+    message: "",
   });
   const handleServerResponse = (ok, msg) => {
     if (ok) {
@@ -29,7 +27,7 @@ function Form() {
         nombre: "",
         correo: "",
         cedula: "",
-        menssage: "",
+        message: "",
       });
     } else {
       setStatus({
@@ -71,9 +69,9 @@ function Form() {
     <section
       className={`align-items-center justify-content-center d-flex ${Styles.cover}`}
     >
-      <div class={`${Styles.contenedor}`}>
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col">
+      <div className={`${Styles.contenedor}`}>
+        <div className="row row-cols-1 row-cols-md-2">
+          <div className="col">
             {/* area informativa */}
             <div
               className={`justify-content-evenly flex-column d-flex ${Styles.textContainer}`}
@@ -126,7 +124,7 @@ function Form() {
             </div>
           </div>
           {/* area del formulario */}
-          <div class="col">
+          <div className="col">
             <div className={`${Styles.formSection}`}>
               <h4 className={Styles.formTitle2}>Send Us A Message</h4>
               <form className={Styles.formContainer} onSubmit={handleOnSubmit}>
@@ -167,14 +165,11 @@ function Form() {
                 <button type="submit" disabled={status.submitting}>
                   {!status.submitting
                     ? !status.submitted
-                      ? "Resgistar"
-                      : "Registar"
-                    : "Registrando..."}
+                      ? "Enviar"
+                      : "Enviar"
+                    : "Enviando..."}
                 </button>
               </form>
-              <button type="button" className="btn btn-dark">
-                Descargar formulario
-              </button>
               {status.info.error && (
                 <div className="error">Error: {status.info.msg}</div>
               )}
