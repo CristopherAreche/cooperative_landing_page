@@ -42,6 +42,9 @@ export const RegisterFormTemplate = (props) => {
     },
   });
 
+  const currentDate = new Date();
+  const formatedDate = currentDate.toLocaleString();
+
   return (
     <Document>
       <Page size={"A4"} style={styles.page}>
@@ -52,9 +55,7 @@ export const RegisterFormTemplate = (props) => {
             (COOPINNOVADORES)
           </Text>
           <Text style={styles.date}>
-            Fecha <Text style={styles.underlined}>dd</Text> /{" "}
-            <Text style={styles.underlined}>mm</Text> /{" "}
-            <Text style={styles.underlined}>yyyy</Text>
+            Fecha <Text style={styles.underlined}>{formatedDate}</Text>{" "}
           </Text>
           <View
             style={{
