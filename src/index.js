@@ -11,7 +11,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/cooperativa_langing_page">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
