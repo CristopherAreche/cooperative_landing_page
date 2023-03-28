@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/cooperativa_landing_page/static/css/main.93cb1b45.css",
-    "main.js": "/cooperativa_landing_page/static/js/main.d7cbabaa.js",
+    "main.css": "/cooperativa_landing_page/static/css/main.e2cfe6a1.css",
+    "main.js": "/cooperativa_landing_page/static/js/main.681a5c51.js",
     "static/js/483.2b6dfc69.chunk.js": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js",
-    "static/js/787.bf82e99f.chunk.js": "/cooperativa_landing_page/static/js/787.bf82e99f.chunk.js",
     "static/media/docs.jpg": "/cooperativa_landing_page/static/media/docs.81e50c9f2e7123f93e95.jpg",
     "static/media/cover-img.jpg": "/cooperativa_landing_page/static/media/cover-img.8c85adf0ae2837b7fc33.jpg",
     "static/media/register.jpg": "/cooperativa_landing_page/static/media/register.37271366be1baa0a2a69.jpg",
@@ -17,13 +16,12 @@
     "static/media/cooplogo.png": "/cooperativa_landing_page/static/media/cooplogo.1b9118f602d9b2d5179f.png",
     "static/media/whatWeDo.svg": "/cooperativa_landing_page/static/media/whatWeDo.817ce04c51e85dceeb1abde0cd2fe662.svg",
     "index.html": "/cooperativa_landing_page/index.html",
-    "main.93cb1b45.css.map": "/cooperativa_landing_page/static/css/main.93cb1b45.css.map",
-    "main.d7cbabaa.js.map": "/cooperativa_landing_page/static/js/main.d7cbabaa.js.map",
-    "483.2b6dfc69.chunk.js.map": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js.map",
-    "787.bf82e99f.chunk.js.map": "/cooperativa_landing_page/static/js/787.bf82e99f.chunk.js.map"
+    "main.e2cfe6a1.css.map": "/cooperativa_landing_page/static/css/main.e2cfe6a1.css.map",
+    "main.681a5c51.js.map": "/cooperativa_landing_page/static/js/main.681a5c51.js.map",
+    "483.2b6dfc69.chunk.js.map": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93cb1b45.css",
-    "static/js/main.d7cbabaa.js"
+    "static/css/main.e2cfe6a1.css",
+    "static/js/main.681a5c51.js"
   ]
 }
