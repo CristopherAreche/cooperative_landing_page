@@ -10,9 +10,17 @@ export default function App() {
   return (
     <div className="page-container">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/aboutUs" element={<AboutUsView />} />
+        <Route exact path="/cooperativa_landing_page" element={<Home />} />
+        <Route
+          exact
+          path="/cooperativa_landing_page/register"
+          element={<Register />}
+        />
+        <Route
+          exact
+          path="/cooperativa_landing_page/aboutUs"
+          element={<AboutUsView />}
+        />
         {/* <Route path="*" element={<NotFound/>}/> */}
       </Routes>
       <Footer />
