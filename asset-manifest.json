@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/cooperativa_landing_page/static/css/main.e2cfe6a1.css",
-    "main.js": "/cooperativa_landing_page/static/js/main.681a5c51.js",
-    "static/js/483.2b6dfc69.chunk.js": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js",
-    "static/media/docs.jpg": "/cooperativa_landing_page/static/media/docs.81e50c9f2e7123f93e95.jpg",
-    "static/media/cover-img.jpg": "/cooperativa_landing_page/static/media/cover-img.8c85adf0ae2837b7fc33.jpg",
-    "static/media/register.jpg": "/cooperativa_landing_page/static/media/register.37271366be1baa0a2a69.jpg",
-    "static/media/aboutUs.jpg": "/cooperativa_landing_page/static/media/aboutUs.5de1fb566b90f6d29104.jpg",
-    "static/media/weAreCreative.jpg": "/cooperativa_landing_page/static/media/weAreCreative.dd0fc89900e2d5b75a1c.jpg",
-    "static/media/herofondo.jpg": "/cooperativa_landing_page/static/media/herofondo.ba6cff167da59da0578d.jpg",
-    "static/media/registroImg.jpg": "/cooperativa_landing_page/static/media/registroImg.959968846c8658a9f534.jpg",
-    "static/media/heroImg1.png": "/cooperativa_landing_page/static/media/heroImg1.32171afc9da74593dc8e.png",
-    "static/media/whyUs.svg": "/cooperativa_landing_page/static/media/whyUs.c31b736d2367c196cd8717496f6ca848.svg",
-    "static/media/whoWeAre.svg": "/cooperativa_landing_page/static/media/whoWeAre.52c447d35e3be67b3be026e96ba5de5d.svg",
-    "static/media/cooplogo.png": "/cooperativa_landing_page/static/media/cooplogo.1b9118f602d9b2d5179f.png",
-    "static/media/whatWeDo.svg": "/cooperativa_landing_page/static/media/whatWeDo.817ce04c51e85dceeb1abde0cd2fe662.svg",
-    "index.html": "/cooperativa_landing_page/index.html",
-    "main.e2cfe6a1.css.map": "/cooperativa_landing_page/static/css/main.e2cfe6a1.css.map",
-    "main.681a5c51.js.map": "/cooperativa_landing_page/static/js/main.681a5c51.js.map",
-    "483.2b6dfc69.chunk.js.map": "/cooperativa_landing_page/static/js/483.2b6dfc69.chunk.js.map"
+    "main.css": "/cooperative_landing_page/static/css/main.d6ef3370.css",
+    "main.js": "/cooperative_landing_page/static/js/main.daed72ad.js",
+    "static/js/483.721f659e.chunk.js": "/cooperative_landing_page/static/js/483.721f659e.chunk.js",
+    "static/media/docs.jpg": "/cooperative_landing_page/static/media/docs.81e50c9f2e7123f93e95.jpg",
+    "static/media/cover-img.jpg": "/cooperative_landing_page/static/media/cover-img.8c85adf0ae2837b7fc33.jpg",
+    "static/media/register.jpg": "/cooperative_landing_page/static/media/register.37271366be1baa0a2a69.jpg",
+    "static/media/aboutUs.jpg": "/cooperative_landing_page/static/media/aboutUs.5de1fb566b90f6d29104.jpg",
+    "static/media/weAreCreative.jpg": "/cooperative_landing_page/static/media/weAreCreative.dd0fc89900e2d5b75a1c.jpg",
+    "static/media/herofondo.jpg": "/cooperative_landing_page/static/media/herofondo.ba6cff167da59da0578d.jpg",
+    "static/media/registroImg.jpg": "/cooperative_landing_page/static/media/registroImg.959968846c8658a9f534.jpg",
+    "static/media/heroImg1.png": "/cooperative_landing_page/static/media/heroImg1.32171afc9da74593dc8e.png",
+    "static/media/whyUs.svg": "/cooperative_landing_page/static/media/whyUs.c31b736d2367c196cd8717496f6ca848.svg",
+    "static/media/whoWeAre.svg": "/cooperative_landing_page/static/media/whoWeAre.52c447d35e3be67b3be026e96ba5de5d.svg",
+    "static/media/cooplogo.png": "/cooperative_landing_page/static/media/cooplogo.1b9118f602d9b2d5179f.png",
+    "static/media/whatWeDo.svg": "/cooperative_landing_page/static/media/whatWeDo.817ce04c51e85dceeb1abde0cd2fe662.svg",
+    "index.html": "/cooperative_landing_page/index.html",
+    "main.d6ef3370.css.map": "/cooperative_landing_page/static/css/main.d6ef3370.css.map",
+    "main.daed72ad.js.map": "/cooperative_landing_page/static/js/main.daed72ad.js.map",
+    "483.721f659e.chunk.js.map": "/cooperative_landing_page/static/js/483.721f659e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2cfe6a1.css",
-    "static/js/main.681a5c51.js"
+    "static/css/main.d6ef3370.css",
+    "static/js/main.daed72ad.js"
   ]
 }
