@@ -1,11 +1,11 @@
 {
-  "name": "cooperativa_landing_page",
+  "name": "cooperative_landing_page",
   "version": "0.1.0",
   "engines": {
     "node": ">=12.0.0 <18.0.0"
   },
   "private": true,
-  "homepage": "http://CristopherAreche.github.io/cooperativa_landing_page",
+  "homepage": "http://CristopherAreche.github.io/cooperative_landing_page",
   "dependencies": {
     "@react-google-maps/api": "^2.17.1",
     "@react-pdf/renderer": "^3.0.1",

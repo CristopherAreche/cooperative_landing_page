@@ -54,7 +54,7 @@ function Header({
         >
           <div className="container">
             <Link
-              to={"/cooperativa_landing_page"}
+              to={"/cooperative_landing_page"}
               style={{ textDecoration: "none" }}
             >
               <h2 className={`text-white fs-3`}>WEB ZONE</h2>
@@ -74,19 +74,19 @@ function Header({
               <div className="mx-auto"></div>
               <div className="navbar-nav">
                 <Link
-                  to={"/cooperativa_landing_page"}
+                  to={"/cooperative_landing_page"}
                   style={{ textDecoration: "none" }}
                 >
                   <h2 className="nav-link text-white fs-5">Inicio</h2>
                 </Link>
                 <Link
-                  to={"/cooperativa_landing_page/aboutUs"}
+                  to={"/cooperative_landing_page/aboutUs"}
                   style={{ textDecoration: "none" }}
                 >
                   <h2 className="nav-link text-white fs-5">Acerca de</h2>
                 </Link>
                 <Link
-                  to={"/cooperativa_landing_page/register"}
+                  to={"/cooperative_landing_page/register"}
                   style={{ textDecoration: "none" }}
                 >
                   <h2 className="nav-link text-white fs-5">Registrate</h2>
